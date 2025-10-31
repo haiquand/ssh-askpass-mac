@@ -8,6 +8,7 @@ It was originally developed to solve the need for entering a YubiKey SSH (FIDO2)
 
 Currently developed and tested on **macOS Sequoia 15.4**.
 
+![screenshot-passphrase-release](./assets/screenshot-passphrase-release.png)
 
 ## 🧰 Installation
 
@@ -49,6 +50,10 @@ make run        # Run the release build
 make run-debug  # Run the debug build
 make clean      # Remove all build artifacts and build log.
 ```
+
+Here is a screenshot of **debug** version:
+
+![screenshot-passphrase-debug](./assets/screenshot-passphrase-debug.png)
 
 ## License
 
