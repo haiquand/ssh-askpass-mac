@@ -51,10 +51,18 @@ make run-debug  # Run the debug build
 make clean      # Remove all build artifacts and build log.
 ```
 
+> The debug version prints the current environment variables related to SSH, helping to verify that `SSH_ASKPASS` and other configurations are set correctly:
+> - SSH_AUTH_SOCK
+> - SSH_ASKPASS
+> - SSH_ASKPASS_REQUIRE
+> - GIT_ASKPASS
+> - SSH_SK_PROVIDER
+
+
 Here is a screenshot of **debug** version:
 
 ![screenshot-passphrase-debug](./assets/screenshot-passphrase-debug.png)
 
-## License
+## 📄 License
 
 See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
