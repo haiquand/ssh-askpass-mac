@@ -91,6 +91,6 @@ struct ContentView: View {
     }
 }
 
-#Preview {
-    ContentView(info: "Enter PIN:")
-}
+//#Preview("") {
+//    ContentView(info: "Enter PIN:")
+//}
