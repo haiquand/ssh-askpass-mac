@@ -16,6 +16,23 @@ Currently developed and tested on **macOS Sequoia 15.4**.
 
 - **Xcode** must be installed (the build process uses `xcodebuild`).
 
+### Homebrew Tap
+
+Install `ssh-askpass-mac` from Homebrew Tap
+
+```zsh
+brew tap haiquand/yubikey-ssh
+brew install haiquand/yubikey-ssh/ssh-askpass-mac
+```
+
+The `ssh-askpass-mac.app` will be installed to:
+
+- `/opt/homebrew/Cellar/ssh-askpass-mac/<version>/ssh-askpass-mac.app`.
+
+And create a symlink from `ssh-askpass-mac.app/Contents/MacOS/ssh-askpass-mac` to:
+
+- `/opt/homebrew/bin/ssh-askpass-mac`
+
 ### Build
 
 ```zsh
